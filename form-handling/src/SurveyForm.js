@@ -10,6 +10,8 @@ export default class SurveyForm extends React.Component {
 
     }
 
+
+
     updateFormField = (event) => {
         let stateVariable = event.target.name;
         this.setState({
